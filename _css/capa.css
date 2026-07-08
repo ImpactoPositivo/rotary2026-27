@@ -108,7 +108,7 @@ header h2 {
 .bg2 center img {
     width: 50%;
     padding: 15px;
-    margin: 15px auto;
+    margin: 0px auto;
     background-color: var(--cor8);
 }
 
@@ -166,7 +166,7 @@ div#clique {
     }
 
 div#clique a {
-    background-color: var(--cor4);
+    background-color: var(--cor1);
     border-radius: 15px;
     color: white;
     font-weight: bold;
