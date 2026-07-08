@@ -42,49 +42,14 @@
     margin: 0px;
 }
 
-/* Elegant custom scrollbar */
-html {
-    scrollbar-width: thin;
-    scrollbar-color: var(--cor1) var(--cor8);
-}
-
-::-webkit-scrollbar {
-    width: 10px;
-    height: 10px;
-}
-
-::-webkit-scrollbar-track {
-    background: var(--cor8);
-}
-
-::-webkit-scrollbar-thumb {
-    background-color: var(--cor1);
-    border-radius: 5px;
-    border: 2px solid var(--cor8);
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background-color: var(--cor5);
-}
-
 body {
     font-family: var(--fonte4);
     max-width: 1080px;
+    max-height: 2400px;
     margin: auto;
     background-color: white;
-    border-left: 1px solid var(--cor1);
-    border-right: 1px solid var(--cor1);
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-
-body > section {
-    flex: 1 0 auto;
-}
-
-body > footer {
-    flex-shrink: 0;
+    border-left: 1px solid --cor1;
+    border-right: 1px solid --cor1;
 }
 
 .ano25 #logo {
