@@ -1,0 +1,191 @@
+@charset "UTI-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+@font-face {
+    font-family: 'Frutiger Bold';
+    src: url('../_fontes/FTB.ttf') format('truetype');
+    font-weight: bold;
+
+    font-family: 'Frutiger Light Condensed';
+    src: url('../_fontes/FTLC.ttf') format('truetype');
+    font-weight: lighter;
+
+    font-family: 'Frutuger Ultra Black';
+    src: url('../_fontes/FTUBL.ttf') format('truetype');
+    font-weight: bolder;
+}
+
+:root {
+    --cor1: #732C46;
+    --cor2: #f7a81b;
+    --cor3: #44A69C;
+    --cor4: #30D9D9;
+    --cor5: #BF8821;
+    --cor6: #a7aca2;
+    --cor7: #54565a;
+    --cor8: #ebebeb;
+    --cor9: #ffffff;
+    --cor10: #000000;
+
+    --fonte1: 'Frutiger Light Condensed', cursive;
+    --fonte2: 'Frutiger Bold', cursive;
+    --fonte3: 'Frutuger Ultra Black'. cursive;
+    --fonte4: 'Open Sans', sans-serif;
+    --fonte5: 'Open Sans', sans-serif;
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: var(--fonte4);
+    max-width: 1080px;
+    max-height: 2400px;
+    margin: auto;
+    background-color: white;
+    border-left: 1px solid --cor1;
+    border-right: 1px solid --cor1;
+}
+
+header {
+    border-top: 1px solid var(--cor2);
+    border-left: 1px solid var(--cor2);
+    border-right: 1px solid var(--cor2);
+}
+header figure {
+    background-color: #00adbb;
+}
+
+header img#logo {
+    width: 35%;
+    padding: 10px; 
+}
+
+header div#cabecario {
+    background-color: #ffaf3e;
+    border-left: 1px solid #3155a4;
+    border-right: 1px solid #3155a4;
+    padding: 5px;
+    color: var(cor3);
+}
+
+header h1 {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+header h2 {
+    font-size: .8em;
+    text-align: center;
+    padding: 5px;
+}
+
+header h3 {
+    font-size: .8em;
+    text-align: center;
+    background-color: rgba(211, 211, 211, 0.5);
+    padding: 5px;
+}
+
+header nav {
+    background-color: rgba(211, 211, 211, 0.5);
+    vertical-align: middle;
+    text-align: center;
+    padding: 2px 0px 4px 0px;
+}
+
+header nav a {
+    background-color: var(--cor1);
+    padding: 5px 4px;
+    font-size: 0.6em;
+    font-weight: bold;
+    color: white;
+    border: 1px solid var(--cor1);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    background-color: var(--cor4);
+    color: var(--cor3);
+    text-decoration: underline;  
+}
+
+section {
+    background-color: white;
+    border-left: 1px solid #3155a4;
+    border-right: 1px solid #3155a4;
+    color: #3b3535;
+    padding: 5px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, td, th {
+    border:1px solid #00a8e4
+}
+
+tread {
+    background-color: #00a8e4;
+}
+
+table tr {
+    font-size: 0.7em;
+}
+
+.vertical {
+    writing-mode: vertical-lr;
+    text-align: center;
+}
+
+.mes {
+    width: 50px;
+}
+
+.dia {
+    width: 20px;
+}
+
+.numero {
+    width: 30px;
+}
+
+.reuniao {
+    width: 70px;
+}
+
+.assunto {
+    width: 210px;
+}
+
+.laranja {
+    background-color: #ffaf3e4b;
+}
+
+.azul {
+    background-color: #00a7e441;
+}
+
+footer {
+    background-color: #00adbb;
+    border-left: 1px solid #00adbb;
+    border-right: 1px solid #00adbb;
+    font-family: var(fonte4);
+    color: white;
+    text-align: center;
+}
+
+footer h1 {
+    font-size: 1em;
+}
+
+footer > p {
+    font-size: .8em;
+}

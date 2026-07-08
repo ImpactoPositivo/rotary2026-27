@@ -1,0 +1,447 @@
+@charset "UTI-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+@font-face {
+    font-family: 'Frutiger Bold';
+    src: url('../_fontes/FTB.ttf') format('truetype');
+    font-weight: bold;
+
+    font-family: 'Frutiger Light Condensed';
+    src: url('../_fontes/FTLC.ttf') format('truetype');
+    font-weight: lighter;
+
+    font-family: 'Frutuger Ultra Black';
+    src: url('../_fontes/FTUBL.ttf') format('truetype');
+    font-weight: bolder;
+}
+
+:root {
+    --cor1: #732C46;
+    --cor2: #f7a81b;
+    --cor3: #44A69C;
+    --cor4: #30D9D9;
+    --cor5: #BF8821;
+    --cor6: #a7aca2;
+    --cor7: #54565a;
+    --cor8: #ebebeb;
+    --cor9: #ffffff;
+    --cor10: #000000;
+
+    --fonte1: 'Frutiger Light Condensed', cursive;
+    --fonte2: 'Frutiger Bold', cursive;
+    --fonte3: 'Frutuger Ultra Black'. cursive;
+    --fonte4: 'Open Sans', sans-serif;
+    --fonte5: 'Open Sans', sans-serif;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: var(--fonte4);
+    max-width: 1080px;
+    max-height: 2400px;
+    margin: auto;
+    background-color: white;
+    border-left: 1px solid --cor1;
+    border-right: 1px solid --cor1;
+}
+
+.ano25 {
+    background-color: var(--cor3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ano25 img#logo {
+    height: 10vh;
+    padding: 0px 0px 0px 10px;
+}
+
+.ano25 img#selo {
+    height: 13vh;
+    padding: 0px 10px 0px 0px;
+}
+
+header div#cabecario {
+    background-color: var(--cor2);
+    border-left: 1px solid var(--cor4);
+    border-right: 1px solid var(--cor4);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: var(cor3);
+}
+
+header div#cabecario a{
+    font-size: .8em;
+    color: rgb(152, 152, 152);
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+}
+
+header div#cabecario h1 {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+header div#cabecario h2 {
+    font-size: .8em;
+    text-align: center;
+}
+
+
+header figure {
+    background-color: var(--cor3);
+}
+
+header div#cabecario {
+    background-color: var(--cor2);
+    border-left: 1px solid --cor1;
+    border-right: 1px solid --cor1;
+    padding: 5px;
+    color: var(cor3);
+}
+
+header h1 {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+header h2 {
+    font-size: .8em;
+    text-align: center;
+}
+
+.bg2 {
+    background-color: white;
+    border-left: 1px solid #3155a4;
+    border-right: 1px solid #3155a4;
+    color: #3b3535;
+    padding: 5px;
+    min-height: 67vh;    
+}
+
+.bg2 h1 {
+    font-size: 1em;
+    text-align: center; 
+    padding-top: 5px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.bg2 h2 {
+    font-size: 1em;
+    font-weight: bold;
+    text-align: justify;
+    padding-top: 10px 0px 0px 10px;
+    color: var(--cor2);
+}
+
+.bg2 h3 {
+    font-size: .9em;
+    font-weight: normal;
+    text-align: justify;
+    padding-left: 10px;
+}
+
+.bg2 h4 {
+    font-size: 1em;
+    padding: 10px 10px 0px 10px;
+}
+
+.bg2 p{
+    font-size: .9em;
+    line-height: 1.5em;    
+    padding: 0px 20px;
+    margin-bottom: 5px;
+    text-align: justify;
+}
+
+.bg2 .comissao {
+    display: flex;
+    flex-direction: column;
+}
+
+.bg2 .comissao p {
+    font-size: .9rem;
+    padding: 3px 20px !important;
+    line-height: .9rem;
+}
+
+.bg2 .comissao h3 {
+    padding: 5px 20px;
+}
+
+.bg2 .comissao a{
+    background-color: var(--cor6);
+    color: white;
+    font-size: .8rem;
+    font-weight: bold;
+    padding: 3px 10px;
+    border: none;
+    border-radius: 25px;
+    text-align: center;
+    margin: 5px auto 10px auto;
+}
+
+.bg2 .comissao a:hover{
+    background-color: var(--cor1);
+}
+
+.bg2 .atribuicao {
+    list-style-position: inside;
+    display: flex;
+    flex-direction: column;
+}
+
+.bg2 .atribuicao li{
+    font-size: .9rem;
+    padding: 0px 15px 5px 0px;
+    text-align: left;
+    list-style-position: inside;
+}
+
+.bg2 .atribuicao li p{
+    text-align: left;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+.bg2 .atribuicao .btn{
+    background-color: var(--cor2);
+    font-weight: bold;
+    padding: 0px 10px 3px 10px;
+    border: none;
+    border-radius: 25px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.bg2 .atribuicao .btn:hover{
+    background-color: var(--cor4);
+    color: white;
+}
+
+.vd2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+iframe {
+    margin-top: 100px;
+}
+
+div#acao {
+    display: block;
+    padding: 10px;
+}
+
+div#acao img {
+    width: 100%;
+}
+
+div#acao figcaption {
+    color: var(--cor3);
+    font-size: .8em;
+}
+
+div#mensagem p {
+    font-size: 0.8em;
+    line-height: 1.8em;
+}
+
+div#mensagem ol {
+    font-size: 0.8em;
+}
+
+div#mensagem li {
+    line-height: 1.8em;
+    list-style-position: inside;
+    padding-left: 15px;
+}
+
+div#espaco {
+    margin-left: 80px;
+}
+
+.esquerda {
+    padding-top: 10px;
+}
+
+.esquerda p {
+    text-align: left;
+    background-color: #00a7e442;
+}
+
+.direita {
+    padding-bottom: 10px;
+}
+
+.direita p {
+    text-align: right;
+    padding-right: 10px;
+    background-color: #ffaf3e59;
+}
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+    margin: auto;
+    padding-top: 15px;
+}
+
+table td {
+    font-size: 1em;
+}
+
+section ul {
+    color: #3b3535;
+    font-size: .8em;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    list-style: inside;
+}
+
+.bg2 ul {
+    padding-bottom: 0px;
+    font-size: 0.9em;
+}
+
+.bg2 li {
+    line-height: 1.5em;
+}
+
+section a {
+    color: #3b3535;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+section a:hover {
+    color: var(--cor1);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.assinatura{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+img#foto {
+    width: 25%;
+    padding: 10px;
+    float: left;
+}
+
+ div#foto1 {
+    display: block;
+    border: 1px solid white;
+    float: left;
+    padding: 10px;
+}
+
+div#foto1 img {
+    width: 100%;
+}
+
+div#foto1 figcaption {
+    color: var(--cor3);
+    font-size: .8em;
+}
+
+div#nome {
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+div#nome h1 {
+    font-size: 0.9em;
+}
+
+div#nome h2 {
+    font-size: 1em;
+    padding: 2px 0px 2px 10px !important;
+}
+
+div#nome h3 {
+    font-size: 0.85em;
+    padding: 2px 0px 2px 10px !important;
+}
+
+div#nome p {
+    font-size: 0.7em;
+    padding: 2px 0px 2px 10px !important;
+}
+
+div#rodape {
+    font-size: 0.7em;
+    margin-left: 0px;
+}
+
+div#clique {
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    }
+
+div#clique a {
+    background-color: #f26523;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 10px;
+    box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.219);
+}
+
+div#clique a:hover {
+    background-color: #3b3535;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+footer {
+    background-color: var(--cor3);
+    font-family: var(--fonte4);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer h1 {
+    font-size: 1em;
+}
+
+footer > p {
+    font-size: .8em;
+}
+
+footer a{
+    font-size: .8em;
+    color: white;
+    font-weight: bold;
+    padding: 2px 10px;
+    border: none;
+    border-radius: 25px;
+    text-decoration: none;
+    cursor: pointer;  
+}
+
+footer a:hover{
+    background-color: var(--cor4);
+    text-decoration: underline;
+}

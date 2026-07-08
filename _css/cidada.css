@@ -1,0 +1,175 @@
+@charset "UTI-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+@font-face {
+    font-family: 'Frutiger Bold';
+    src: url('../_fontes/FTB.ttf') format('truetype');
+    font-weight: bold;
+
+    font-family: 'Frutiger Light Condensed';
+    src: url('../_fontes/FTLC.ttf') format('truetype');
+    font-weight: lighter;
+
+    font-family: 'Frutuger Ultra Black';
+    src: url('../_fontes/FTUBL.ttf') format('truetype');
+    font-weight: bolder;
+}
+
+:root {
+    --cor1: #732C46;
+    --cor2: #f7a81b;
+    --cor3: #44A69C;
+    --cor4: #30D9D9;
+    --cor5: #BF8821;
+    --cor6: #a7aca2;
+    --cor7: #54565a;
+    --cor8: #ebebeb;
+    --cor9: #ffffff;
+    --cor10: #000000;
+
+    --fonte1: 'Frutiger Light Condensed', cursive;
+    --fonte2: 'Frutiger Bold', cursive;
+    --fonte3: 'Frutuger Ultra Black'. cursive;
+    --fonte4: 'Open Sans', sans-serif;
+    --fonte5: 'Open Sans', sans-serif;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: var(--fonte4);
+    max-width: 1080px;
+    max-height: 2400px;
+    margin: auto;
+    background-color: white;
+    border-left: 1px solid --cor1;
+    border-right: 1px solid --cor1;
+}
+
+.ano25 #logo {
+    height: 10vh;
+    padding: 0px 0px 0px 10px;
+}
+
+.ano25 #selo {
+    height: 15vh;
+    padding: 0px 10px 0px 0px;
+}
+
+.corpo {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+ 
+
+header figure {
+    background-color: var(--cor3);
+}
+
+header img#logo {
+    height: 10%;
+    padding: 10px; 
+}
+
+header div#cabecario {
+    background-color: #ffaf3e;
+    border-left: 1px solid #3155a4;
+    border-right: 1px solid #3155a4;
+    padding: 5px;
+    color: var(cor3);
+}
+
+header h1 {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+header h2 {
+    font-size: .8em;
+    text-align: center;
+}
+
+section {
+    background-color: white;
+    border-left: 1px solid #3155a4;
+    border-right: 1px solid #3155a4;
+    color: #3b3535;
+    padding: 5px;
+}
+
+.bg2 {
+    flex-grow: 1;
+} 
+
+.bg2 h1 {
+    font-size: 1em;
+    text-align: center; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.bg2 h2 {
+    font-size: 1em;
+    font-weight: bold;
+    text-align: justify;
+    padding-top: 10px;
+    color: #ffaf3e;
+    padding-left: 10px;
+}
+
+.bg2 h3 {
+    font-size: 1em;
+    padding-left: 10px;
+    font-weight: normal;
+    text-align: justify;
+}
+
+.bg2 table.cidada tbody tr td img {
+    width: 100px;
+    padding: 5px;
+}
+
+.bg2 table.cidada td {
+    padding: 0px;
+}
+
+.bg2 table.cidada tbody tr td{
+    font-size: .9em;
+    text-align: center;
+}
+
+.bg2 table.cidada .destaque {
+    background-color: #ffaf3e82;
+    font-weight: bold;
+}
+
+.bg2 table.cidada tbody tr td p{
+    font-size: .9em;
+    line-height: 1em;
+    text-align: center;
+    padding: 3px;
+}
+
+footer {
+    background-color: #00adbb;
+    border-left: 1px solid #00adbb;
+    border-right: 1px solid #00adbb;
+    font-family: var(fonte4);
+    color: white;
+    text-align: center;
+}
+
+footer h1 {
+    font-size: 1em;
+}
+
+footer > p {
+    font-size: .8em;
+}
