@@ -340,8 +340,12 @@ img#foto {
 
 img#presidente {
     max-width: 40%;
-    padding: 15px 10px 15px 5px;
+    padding: 0px 10px 10px 0px;
     float: left;
+}
+
+.bg2.curriculum-page {
+    display: block;
 }
 
 img#acao {
